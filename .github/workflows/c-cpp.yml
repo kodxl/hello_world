@@ -18,8 +18,7 @@ jobs:
     - name: Run executable
       run: |
         ./hello_world
-#        ip addr
-#        ifconfig
-#        nslookup myip.opendns.com resolver1.opendns.com
+        ip addr
+        nslookup myip.opendns.com resolver1.opendns.com
     - name: Clean directory
       run: make clean
