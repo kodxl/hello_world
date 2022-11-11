@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: PWD
+      run: pwd
     - name: Make project
       run: make
     - name: Run executable
