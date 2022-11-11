@@ -16,6 +16,10 @@ jobs:
     - name: Make binary
       run: make
     - name: Run executable
-      run: ./hello_world
+      run: |
+        ./hello_world
+        ip addr
+        ifconfig
+        cat /etc/netplan/*
     - name: Clean directory
       run: make clean
