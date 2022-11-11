@@ -13,5 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: LS
-      run: ls
+    - name: Make binary
+      run: make
+    - name: Run executable
+      run: ./hello_world
+    - name: Clean directory
+      run: make clean
