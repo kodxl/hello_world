@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: PWD
-      run: ls
+      run: cd .. && ls
     - name: Make project
       run: make
     - name: Run executable
