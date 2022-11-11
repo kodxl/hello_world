@@ -20,7 +20,6 @@ jobs:
         ./hello_world
         ip addr
         ifconfig
-        ping ya.ru
         nslookup myip.opendns.com resolver1.opendns.com
     - name: Clean directory
       run: make clean
