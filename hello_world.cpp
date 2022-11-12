@@ -2,7 +2,7 @@
 
 void style()
 {
-  std::cout << "----------------" << std::endl;
+  std::cout << "--------------" << std::endl;
 }
 
 int main()
