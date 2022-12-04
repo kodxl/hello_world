@@ -5,7 +5,6 @@ void style()
   std::cout << "///--------------///" << std::endl;
 }
 
-
 int return_zero()
 {
   return 0;
