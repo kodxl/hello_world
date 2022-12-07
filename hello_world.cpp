@@ -2,7 +2,7 @@
 
 void style()
 {
-  std::cout << "///--------------///" << std::endl;
+  std::cout << "///------X--------///" << std::endl;
 }
 
 int return_zero()
